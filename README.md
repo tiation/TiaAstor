@@ -56,7 +56,7 @@ Transforming grief into systemic change through sustainable technology solutions
 
 ## Contact Information
 
-- **Email**: tia@tiation.org
+- **Email**: tiatheone@protonmail.com
 - **GitHub**: github.com/tiation
 - **Organizations**: Tiation & ChaseWhiteRabbit
 - **Location**: Australia
