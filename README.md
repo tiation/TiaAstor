@@ -1,6 +1,19 @@
-# Tia Astor - Personal Resume
+# 🌟👩‍💻 Tia Astor: Systems Designer & Social Innovation Architect
 
-Welcome to **Tia Astor's** professional journey, an intricate blend of technology and heart, weaving through the landscapes of social innovation and systemic change.
+<div align="center">
+
+![Tia Astor Banner](https://img.shields.io/badge/Transform-Systems%20With%20Love-purple?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTEyIDJsLjkxIDMLjUxaDMuNjlsLTIuOTggMi4xNyAxLjE0IDMuNTFMMTIgOS4xMiA5LjI0IDExLjE5bDEuMTQtMy41MUw3LjQgNS41MWgzLjY5TDEyIDJ6Ii8+PC9zdmc+)
+
+**"Technology and heart, woven into systemic change"**
+
+*Welcome to my professional journey through social innovation and systems transformation*
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen?style=flat-square)](https://tiation.github.io/TiaAstor/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square)](https://linkedin.com/in/tiaastor)
+[![Projects](https://img.shields.io/badge/Projects-View%20All-orange?style=flat-square)](https://github.com/tiation)
+[![Contact](https://img.shields.io/badge/Email-tiatheone%40protonmail.com-red?style=flat-square)](mailto:tiatheone@protonmail.com)
+
+</div>
 
 ## About
 
