@@ -40,12 +40,12 @@ As a visionary systems designer and social entrepreneur, Tia Astor transforms gr
 ## Explore More
 
 - **GitHub Portfolio**: [Tia's GitHub](https://github.com/tiation)
-- **Projects Website**: [TiaAstor.com](http://your-github-pages-link.com)
+- **Projects Website**: [TiaAstor.com](https://tiation.github.io/TiaAstor/)
 
 ## Contact Information
 
 - **Email**: [tiatheone@protonmail.com](mailto:tiatheone@protonmail.com)
-- **LinkedIn**: [Tia Astor](http://your-linkedin-profile-link.com)
+- **LinkedIn**: [Tia Astor](https://linkedin.com/in/tiaastor)
 - **Location**: Australia
 
 ## Final Note
