@@ -9,7 +9,7 @@
 *Welcome to my professional journey through social innovation and systems transformation*
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen?style=flat-square)](https://tiation.github.io/TiaAstor/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square)](https://linkedin.com/in/tiaastor)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square)](https://www.linkedin.com/in/tiation/)
 [![Projects](https://img.shields.io/badge/Projects-View%20All-orange?style=flat-square)](https://github.com/tiation)
 [![Contact](https://img.shields.io/badge/Email-tiatheone%40protonmail.com-red?style=flat-square)](mailto:tiatheone@protonmail.com)
 
@@ -45,7 +45,7 @@ As a visionary systems designer and social entrepreneur, Tia Astor transforms gr
 ## Contact Information
 
 - **Email**: [tiatheone@protonmail.com](mailto:tiatheone@protonmail.com)
-- **LinkedIn**: [Tia Astor](https://linkedin.com/in/tiaastor)
+- **LinkedIn**: [Tia Astor](https://www.linkedin.com/in/tiation/)
 - **Location**: Australia
 
 ## Final Note
