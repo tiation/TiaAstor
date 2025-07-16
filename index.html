@@ -5,6 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tia Astor - Systems Designer & Social Innovation Architect</title>
     <style>
+        :root {
+            /* Light theme colors */
+            --bg-primary: #ffffff;
+            --bg-secondary: #f8fafc;
+            --bg-tertiary: #f1f5f9;
+            --text-primary: #1e293b;
+            --text-secondary: #475569;
+            --text-muted: #64748b;
+            --border-color: #e2e8f0;
+            --shadow-color: rgba(0, 0, 0, 0.1);
+            
+            /* GitKraken-style gradients */
+            --gradient-primary: linear-gradient(135deg, #00d4ff 0%, #00b4d8 25%, #0096c7 50%, #0077b6 75%, #023e8a 100%);
+            --gradient-secondary: linear-gradient(135deg, #7209b7 0%, #a663cc 25%, #c77dff 50%, #e0aaff 75%, #f2d7ff 100%);
+            --gradient-accent: linear-gradient(135deg, #ff006e 0%, #fb8500 25%, #ffb700 50%, #8ecae6 75%, #219ebc 100%);
+            --gradient-success: linear-gradient(135deg, #52b788 0%, #74c69d 25%, #95d5b2 50%, #b7e4c7 75%, #d8f3dc 100%);
+            --gradient-warning: linear-gradient(135deg, #f77f00 0%, #fcbf49 25%, #fed766 50%, #ffe66d 75%, #fffacd 100%);
+            
+            /* Solid colors for accessibility */
+            --color-primary: #0096c7;
+            --color-secondary: #7209b7;
+            --color-accent: #ff006e;
+            --color-success: #52b788;
+            --color-warning: #f77f00;
+        }
+
+        [data-theme="dark"] {
+            /* Dark theme colors */
+            --bg-primary: #0f172a;
+            --bg-secondary: #1e293b;
+            --bg-tertiary: #334155;
+            --text-primary: #f1f5f9;
+            --text-secondary: #cbd5e1;
+            --text-muted: #94a3b8;
+            --border-color: #475569;
+            --shadow-color: rgba(0, 0, 0, 0.3);
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -14,9 +52,10 @@
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
-            color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: var(--text-primary);
+            background: var(--bg-primary);
             min-height: 100vh;
+            transition: all 0.3s ease;
         }
 
         .container {
@@ -25,16 +64,39 @@
             padding: 20px;
         }
 
+        .theme-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: var(--gradient-primary);
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            font-size: 1.2em;
+            color: white;
+            box-shadow: 0 4px 15px var(--shadow-color);
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+
+        .theme-toggle:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 20px var(--shadow-color);
+        }
+
         .resume-card {
-            background: white;
+            background: var(--bg-primary);
             border-radius: 20px;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            box-shadow: 0 20px 40px var(--shadow-color);
             overflow: hidden;
             margin: 20px 0;
+            border: 1px solid var(--border-color);
         }
 
         .header {
-            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            background: var(--gradient-primary);
             color: white;
             padding: 40px;
             text-align: center;
@@ -86,6 +148,7 @@
 
         .main-content {
             padding: 40px;
+            background: var(--bg-primary);
         }
 
         .section {
@@ -94,10 +157,10 @@
 
         .section-title {
             font-size: 1.8em;
-            color: #2c3e50;
+            color: var(--text-primary);
             margin-bottom: 20px;
             padding-bottom: 10px;
-            border-bottom: 3px solid #3498db;
+            border-bottom: 3px solid var(--color-primary);
             position: relative;
         }
 
@@ -108,16 +171,17 @@
             left: 0;
             width: 50px;
             height: 3px;
-            background: #e74c3c;
+            background: var(--gradient-accent);
         }
 
         .highlight-card {
-            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            background: var(--bg-secondary);
             border-radius: 15px;
             padding: 25px;
             margin: 20px 0;
-            border-left: 5px solid #3498db;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            border-left: 5px solid var(--color-primary);
+            box-shadow: 0 5px 15px var(--shadow-color);
+            border: 1px solid var(--border-color);
         }
 
         .project-grid {
