@@ -1,90 +1,46 @@
 # Tia Astor - Personal Resume
 
-This repository contains the HTML resume for **Tia Astor**, Systems Designer & Social Innovation Architect.
+Welcome to **Tia Astor's** professional journey, an intricate blend of technology and heart, weaving through the landscapes of social innovation and systemic change.
 
 ## About
 
-Tia Astor is an innovative systems designer and social entrepreneur with a unique approach to transforming grief into systemic solutions. As the founder of **Tiation** and **ChaseWhiteRabbit**, Tia specializes in technology-driven social impact initiatives and creating sustainable technology solutions that address root causes of social problems.
+With degrees in Criminology and Psychology, Tia combines a deep understanding of human behavior with cutting-edge technology. This rare synergy forms the backbone of her work in creating compassionate systems that bring hope and empowerment to communities.
+
+As a visionary systems designer and social entrepreneur, Tia Astor transforms grief into actionable solutions. She is the founder of **Tiation** and **ChaseWhiteRabbit**, where she leads with a belief that technology can drive profound social impact and sustainable change. Her initiatives dive deep into the heart of social issues, crafting solutions that address them at their core.
 
 ## Core Philosophy
 
-> "People are good. Systems are broken. We can fix the systems."
+> "People are good. Systems are broken. Together, we can heal these systems."
 
 ## Key Achievements
 
-- **The $19 Trillion Solution**: Comprehensive economic reform proposal demonstrating how Australia's existing assets can eliminate public debt and provide universal basic income
-- **Grief-to-Design Methodology**: Pioneer framework for transforming personal loss into systematic change
-- **RiggerConnect Enterprise**: Enterprise-grade SAAS platform for industrial workforce management
-- **Multiple Open Source Projects**: Contributing to community-driven technology solutions
+- **The $19 Trillion Solution**: Illustrating economic reform that leverages Australian assets to eliminate public debt and ensure universal basic income.
+- **Grief-to-Design Methodology**: A groundbreaking framework transforming personal loss into societal change.
+- **RiggerConnect Enterprise**: Innovating workforce management with an intuitive SAAS platform.
+- **Open Source Contributions**: Fueling community-driven solutions with passion and expertise.
 
-## Technical Expertise
+## Educational Background
 
-### Frontend Development
-- React/TypeScript
-- Vue 3
-- SwiftUI
-- Tailwind CSS
+- **Bachelor's Degree in Criminology**: Exploring societal systems and justice.
+- **Bachelor's Degree in Psychology**: Understanding human emotion and resilience.
 
-### Backend & Infrastructure
-- Node.js
-- AWS Services
-- Firebase
-- CI/CD
+## Explore More
 
-### Specialized Skills
-- Systems Design
-- Economic Analysis
-- Policy Design
-- Social Innovation
-- Systems Thinking
-
-## Projects Featured
-
-1. **The $19 Trillion Solution** - Economic reform proposal
-2. **Grief-to-Design Blueprint** - Methodology for systemic change
-3. **Enterprise Intranet System** - Modern company communication platform
-4. **D&D Dice Roller Simulator** - iOS application for tabletop gaming
-5. **RiggerConnect Enterprise** - Industrial workforce management platform
-
-## Organizations Founded
-
-### Tiation
-Technology initiatives that remove barriers and empower communities through innovative solutions.
-
-### ChaseWhiteRabbit NGO
-Transforming grief into systemic change through sustainable technology solutions with the core belief that "automation is compassion at scale."
+- **GitHub Portfolio**: [Tia's GitHub](https://github.com/tiation)
+- **Projects Website**: [TiaAstor.com](http://your-github-pages-link.com)
 
 ## Contact Information
 
-- **Email**: tiatheone@protonmail.com
-- **GitHub**: github.com/tiation
-- **Organizations**: Tiation & ChaseWhiteRabbit
+- **Email**: [tiatheone@protonmail.com](mailto:tiatheone@protonmail.com)
+- **LinkedIn**: [Tia Astor](http://your-linkedin-profile-link.com)
 - **Location**: Australia
-
-## Repository Structure
-
-- `index.html` - Main resume page with interactive features
-- `README.md` - This file
-- Additional assets and documentation as needed
-
-## Features
-
-- **Responsive Design**: Works on all device sizes
-- **Interactive Elements**: Animated skill bars and hover effects
-- **Modern Styling**: Clean, professional appearance
-- **Comprehensive Content**: Detailed project descriptions and technical skills
-- **Personal Philosophy**: Integrated core beliefs and approach
-
-## License
-
-This work is licensed under Creative Commons Attribution 4.0 (CC BY 4.0). You may copy, remix, share, and build upon this work — even commercially — so long as you credit the origin.
 
 ## Final Note
 
-> "We start again — not from zero, but from loss."
+> "We start again — not from zero, but from loss. Every end is a new beginning."
 
-This resume represents more than professional achievements; it's a testament to transforming personal experiences into meaningful systemic change that can benefit society as a whole.
+Embrace the journey through Tia's work, where technical prowess meets heartfelt intention, driving systemic change with love and logic.
 
 ---
 
-*Built with purpose, designed for impact.*
+*Designed for impact, built with love.*
