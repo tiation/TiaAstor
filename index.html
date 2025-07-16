@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tia Astor - Systems Designer & Social Innovation Architect</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .resume-card {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+            margin: 20px 0;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            position: relative;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M 10 0 L 0 0 0 10" fill="none" stroke="white" stroke-width="0.5" opacity="0.1"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .name {
+            font-size: 3em;
+            font-weight: 700;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .title {
+            font-size: 1.3em;
+            opacity: 0.9;
+            margin-bottom: 20px;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.9em;
+        }
+
+        .main-content {
+            padding: 40px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section-title {
+            font-size: 1.8em;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #3498db;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            width: 50px;
+            height: 3px;
+            background: #e74c3c;
+        }
+
+        .highlight-card {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 15px;
+            padding: 25px;
+            margin: 20px 0;
+            border-left: 5px solid #3498db;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 20px;
+        }
+
+        .project-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+            border-color: #3498db;
+        }
+
+        .project-title {
+            font-size: 1.3em;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .project-icon {
+            font-size: 1.5em;
+        }
+
+        .project-description {
+            color: #666;
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 15px;
+        }
+
+        .tech-tag {
+            background: #3498db;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            font-weight: 500;
+        }
+
+        .impact-metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .metric-card {
+            background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(52, 152, 219, 0.3);
+        }
+
+        .metric-value {
+            font-size: 2.5em;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        .metric-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 20px;
+        }
+
+        .skill-category {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+        }
+
+        .skill-category h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+
+        .skill-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .skill-item:last-child {
+            border-bottom: none;
+        }
+
+        .skill-bar {
+            width: 100px;
+            height: 6px;
+            background: #ecf0f1;
+            border-radius: 3px;
+            overflow: hidden;
+        }
+
+        .skill-progress {
+            height: 100%;
+            background: linear-gradient(90deg, #3498db, #2980b9);
+            border-radius: 3px;
+            transition: width 0.3s ease;
+        }
+
+        .quote-section {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            margin: 40px 0;
+            border-radius: 15px;
+            position: relative;
+        }
+
+        .quote-section::before {
+            content: '"';
+            font-size: 6em;
+            opacity: 0.1;
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .quote-text {
+            font-size: 1.4em;
+            font-style: italic;
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .quote-author {
+            font-size: 1em;
+            opacity: 0.8;
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 30px;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 15px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #3498db;
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 30px;
+            padding-left: 40px;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -6px;
+            top: 8px;
+            width: 12px;
+            height: 12px;
+            background: #3498db;
+            border-radius: 50%;
+        }
+
+        .timeline-date {
+            font-size: 0.9em;
+            color: #7f8c8d;
+            font-weight: 600;
+        }
+
+        .timeline-title {
+            font-size: 1.2em;
+            color: #2c3e50;
+            margin: 5px 0;
+            font-weight: 600;
+        }
+
+        .timeline-description {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .footer {
+            background: #2c3e50;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            .name {
+                font-size: 2.5em;
+            }
+
+            .contact-info {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .main-content {
+                padding: 20px;
+            }
+
+            .project-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="resume-card">
+            <div class="header">
+                <div class="header-content">
+                    <h1 class="name">Tia Astor</h1>
+                    <p class="title">Systems Designer & Social Innovation Architect</p>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <span>📧</span>
+                            <span>tia@tiation.org</span>
+                        </div>
+                        <div class="contact-item">
+                            <span>🌐</span>
+                            <span>github.com/tiation</span>
+                        </div>
+                        <div class="contact-item">
+                            <span>🏢</span>
+                            <span>Tiation & ChaseWhiteRabbit</span>
+                        </div>
+                        <div class="contact-item">
+                            <span>📍</span>
+                            <span>Australia</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-content">
+                <div class="section">
+                    <div class="quote-section">
+                        <div class="quote-text">
+                            "People are good. Systems are broken. We can fix the systems."
+                        </div>
+                        <div class="quote-author">— Core Philosophy</div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2 class="section-title">Professional Summary</h2>
+                    <div class="highlight-card">
+                        <p>Innovative systems designer and social entrepreneur with a unique approach to transforming grief into systemic solutions. Founder of <strong>Tiation</strong> and <strong>ChaseWhiteRabbit</strong>, specializing in technology-driven social impact initiatives. Expert in full-stack development, economic policy design, and creating sustainable technology solutions that address root causes of social problems.</p>
+                        
+                        <p>Recognized for developing the groundbreaking <strong>$19 Trillion Solution</strong> - a comprehensive economic reform proposal demonstrating how Australia's existing assets can eliminate public debt and provide universal basic income. Pioneer of the <strong>Grief-to-Design</strong> methodology, transforming personal loss into systematic change.</p>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2 class="section-title">Impact Metrics</h2>
+                    <div class="impact-metrics">
+                        <div class="metric-card">
+                            <div class="metric-value">$19T</div>
+                            <div class="metric-label">Economic Solution Value</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-value">12</div>
+                            <div class="metric-label">Systemic Reform Acts</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-value">4</div>
+                            <div class="metric-label">Major Projects</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-value">100%</div>
+                            <div class="metric-label">Open Source</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2 class="section-title">Key Projects</h2>
+                    <div class="project-grid">
+                        <div class="project-card">
+                            <div class="project-title">
+                                <span class="project-icon">💰</span>
+                                The $19 Trillion Solution
+                            </div>
+                            <div class="project-description">
+                                Comprehensive economic reform proposal demonstrating how Australia's $19 trillion in national wealth can eliminate public debt, provide universal basic income, and transform governance from scarcity to abundance-based systems.
+                            </div>
+                            <div class="tech-stack">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">TypeScript</span>
+                                <span class="tech-tag">Vite</span>
+                                <span class="tech-tag">Economic Analysis</span>
+                                <span class="tech-tag">Policy Design</span>
+                            </div>
+                            <p><strong>Impact:</strong> Mathematical proof of systemic economic transformation feasibility</p>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-title">
+                                <span class="project-icon">🐰</span>
+                                Grief-to-Design Blueprint
+                            </div>
+                            <div class="project-description">
+                                Open-source methodology for transforming personal loss into systematic solutions. Features 12 Acts of Systemic Redesign, VPN mesh network infrastructure, and community pulse systems for resilient connectivity.
+                            </div>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Systems Design</span>
+                                <span class="tech-tag">Network Architecture</span>
+                                <span class="tech-tag">Social Innovation</span>
+                                <span class="tech-tag">Community Building</span>
+                            </div>
+                            <p><strong>Impact:</strong> Framework for converting tragedy into prevention systems</p>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-title">
+                                <span class="project-icon">🏢</span>
+                                Enterprise Intranet System
+                            </div>
+                            <div class="project-description">
+                                Modern company intranet application built with Vue 3, TypeScript, and Tailwind CSS. Features responsive design, state management, and automated GitHub Pages deployment.
+                            </div>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Vue 3</span>
+                                <span class="tech-tag">TypeScript</span>
+                                <span class="tech-tag">Tailwind CSS</span>
+                                <span class="tech-tag">Pinia</span>
+                                <span class="tech-tag">GitHub Actions</span>
+                            </div>
+                            <p><strong>Impact:</strong> Streamlined enterprise communication and collaboration</p>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-title">
+                                <span class="project-icon">🎲</span>
+                                D&D Dice Roller Simulator
+                            </div>
+                            <div class="project-description">
+                                SwiftUI-based iOS application for tabletop RPG dice rolling. Features custom dice, roll history, animated results, and responsive design for various iOS devices.
+                            </div>
+                            <div class="tech-stack">
+                                <span class="tech-tag">SwiftUI</span>
+                                <span class="tech-tag">iOS Development</span>
+                                <span class="tech-tag">Xcode</span>
+                                <span class="tech-tag">Animation</span>
+                                <span class="tech-tag">UX Design</span>
+                            </div>
+                            <p><strong>Impact:</strong> Enhanced gaming experience for tabletop RPG enthusiasts</p>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-title">
+                                <span class="project-icon">⚡</span>
+                                RiggerConnect Enterprise
+                            </div>
+                            <div class="project-description">
+                                Enterprise-grade SAAS platform connecting Pilbara business customers with riggers. Features AI-powered matching, automated compliance checking, payment processing, and real-time performance metrics.
+                            </div>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Swift</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">Stripe</span>
+                                <span class="tech-tag">AWS</span>
+                            </div>
+                            <p><strong>Impact:</strong> Streamlined industrial workforce management</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2 class="section-title">Technical Skills</h2>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h3>Frontend Development</h3>
+                            <div class="skill-item">
+                                <span>React/TypeScript</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>Vue 3</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>SwiftUI</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>Tailwind CSS</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3>Backend & Infrastructure</h3>
+                            <div class="skill-item">
+                                <span>Node.js</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 88%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>AWS Services</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 82%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>Firebase</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>CI/CD</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3>Systems & Architecture</h3>
+                            <div class="skill-item">
+                                <span>System Design</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>Network Architecture</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 88%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>Security</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>Database Design</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3>Specialized Skills</h3>
+                            <div class="skill-item">
+                                <span>Economic Analysis</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 92%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>Policy Design</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 88%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>Social Innovation</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>Systems Thinking</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 98%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2 class="section-title">Career Timeline</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">2025 - Present</div>
+                            <div class="timeline-title">Founder & CEO - Tiation</div>
+                            <div class="timeline-description">
+                                Leading technology initiatives that remove barriers and empower communities. Developing the $19 Trillion Solution and implementing grief-to-design methodology for systemic change.
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2025 - Present</div>
+                            <div class="timeline-title">Founder - ChaseWhiteRabbit NGO</div>
+                            <div class="timeline-description">
+                                Transforming grief into systemic change through sustainable technology solutions. Core belief: "automation is compassion at scale."
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2024 - 2025</div>
+                            <div class="timeline-title">Systems Architect - RiggerConnect</div>
+                            <div class="timeline-description">
+                                Designed and implemented enterprise-grade SAAS platform for industrial workforce management in the Pilbara region, featuring AI-powered matching and automated compliance systems.
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2023 - 2024</div>
+                            <div class="timeline-title">Full-Stack Developer - Various Projects</div>
+                            <div class="timeline-description">
+                                Developed multiple web applications using React, Vue, and SwiftUI. Specialized in creating user-friendly interfaces with robust backend systems.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2 class="section-title">Philosophy & Approach</h2>
+                    <div class="highlight-card">
+                        <h3>Core Beliefs</h3>
+                        <ul style="margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+                            <li><strong>People are good. Systems are broken.</strong> - Focus on fixing systems rather than blaming individuals</li>
+                            <li><strong>Automation is compassion at scale</strong> - Technology should serve humanity and reduce suffering</li>
+                            <li><strong>Abundance over scarcity</strong> - Design systems based on what we have, not what we lack</li>
+                            <li><strong>Prevention over punishment</strong> - Address root causes rather than symptoms</li>
+                            <li><strong>Open source everything</strong> - Knowledge should be freely shared for maximum impact</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2 class="section-title">Current Focus</h2>
+                    <div class="project-grid">
+                        <div class="project-card">
+                            <div class="project-title">
+                                <span class="project-icon">🎯</span>
+                                Systemic Reform Implementation
+                            </div>
+                            <div class="project-description">
+                                Working on practical implementation of the 12 Acts of Systemic Redesign, starting with community-level pilots and scaling to national policy recommendations.
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-title">
+                                <span class="project-icon">🌐</span>
+                                Technology for Social Good
+                            </div>
+                            <div class="project-description">
+                                Developing technology solutions that address root causes of social problems, with emphasis on creating sustainable, scalable impact.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Tia Astor. All rights reserved. | Built with purpose, designed for impact.</p>
+        <p style="margin-top: 10px; opacity: 0.8;">
+            "We start again — not from zero, but from loss."
+        </p>
+    </div>
+
+    <script>
+        // Add smooth scrolling and animations
+        document.addEventListener('DOMContentLoaded', function() {
+            // Animate skill bars on scroll
+            const skillBars = document.querySelectorAll('.skill-progress');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const bar = entry.target;
+                        const width = bar.style.width;
+                        bar.style.width = '0%';
+                        setTimeout(() => {
+                            bar.style.width = width;
+                        }, 100);
+                    }
+                });
+            });
+
+            skillBars.forEach(bar => observer.observe(bar));
+
+            // Add hover effects to project cards
+            const projectCards = document.querySelectorAll('.project-card');
+            projectCards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-5px) scale(1.02)';
+                });
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0) scale(1)';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
