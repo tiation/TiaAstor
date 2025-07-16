@@ -63,15 +63,15 @@ Embrace the journey through Tia's work, where technical prowess meets heartfelt 
 This repository is part of the Tiation GitHub ecosystem. For a complete overview of all repositories and their relationships, see the [Repository Index](./REPOSITORY_INDEX.md).
 
 ### Direct Dependencies
-- [grieftodesign](../grieftodesign/) - Design projects
-- [tiation](../tiation/) - Main organization
+- [grieftodesign](https://github.com/tiation/grieftodesign) - Design projects
+- [tiation](https://github.com/tiation/tiation) - Main organization
 - Links to all major projects
 
 ### Quick Links
 - [Repository Index](./REPOSITORY_INDEX.md) - Complete repository overview
-- [Development Setup](../ubuntu-dev-setup/README.md) - Development environment setup
-- [Workflows](../workflows/) - CI/CD templates
-- [Infrastructure](../server-configs-gae/) - Deployment configurations
+- [Development Setup](https://github.com/tiation/ubuntu-dev-setup) - Development environment setup
+- [Workflows](https://github.com/tiation/workflows) - CI/CD templates
+- [Infrastructure](https://github.com/tiation/server-configs-gae) - Deployment configurations
 
 ---
-*Part of the [Tiation](../tiation/) ecosystem*
+*Part of the [Tiation](https://github.com/tiation/tiation) ecosystem*
