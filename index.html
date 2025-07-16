@@ -16,19 +16,22 @@
             --border-color: #e2e8f0;
             --shadow-color: rgba(0, 0, 0, 0.1);
             
-            /* GitKraken-style gradients */
-            --gradient-primary: linear-gradient(135deg, #00d4ff 0%, #00b4d8 25%, #0096c7 50%, #0077b6 75%, #023e8a 100%);
-            --gradient-secondary: linear-gradient(135deg, #7209b7 0%, #a663cc 25%, #c77dff 50%, #e0aaff 75%, #f2d7ff 100%);
-            --gradient-accent: linear-gradient(135deg, #ff006e 0%, #fb8500 25%, #ffb700 50%, #8ecae6 75%, #219ebc 100%);
-            --gradient-success: linear-gradient(135deg, #52b788 0%, #74c69d 25%, #95d5b2 50%, #b7e4c7 75%, #d8f3dc 100%);
-            --gradient-warning: linear-gradient(135deg, #f77f00 0%, #fcbf49 25%, #fed766 50%, #ffe66d 75%, #fffacd 100%);
+            /* Enhanced gradients with more vibrant colors */
+            --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --gradient-secondary: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            --gradient-accent: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+            --gradient-success: linear-gradient(135deg, #00b4db 0%, #0083b0 100%);
+            --gradient-warning: linear-gradient(135deg, #f37335 0%, #fdc830 100%);
+            --gradient-hero: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #f5576c 75%, #fa709a 100%);
             
             /* Solid colors for accessibility */
-            --color-primary: #0096c7;
-            --color-secondary: #7209b7;
-            --color-accent: #ff006e;
-            --color-success: #52b788;
-            --color-warning: #f77f00;
+            --color-primary: #667eea;
+            --color-secondary: #764ba2;
+            --color-accent: #f5576c;
+            --color-success: #00b4db;
+            --color-warning: #f37335;
+            --color-pink: #fa709a;
+            --color-purple: #b794f4;
         }
 
         [data-theme="dark"] {
@@ -96,11 +99,12 @@
         }
 
         .header {
-            background: var(--gradient-primary);
+            background: var(--gradient-hero);
             color: white;
-            padding: 40px;
+            padding: 60px 40px;
             text-align: center;
             position: relative;
+            overflow: hidden;
         }
 
         .header::before {
@@ -119,10 +123,23 @@
         }
 
         .name {
-            font-size: 3em;
+            font-size: 3.5em;
             font-weight: 700;
             margin-bottom: 10px;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            letter-spacing: -1px;
+            animation: fadeInUp 0.8s ease-out;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         .title {
@@ -238,12 +255,36 @@
         }
 
         .tech-tag {
-            background: var(--color-primary);
             color: white;
             padding: 4px 12px;
             border-radius: 20px;
             font-size: 0.8em;
             font-weight: 500;
+            transition: transform 0.2s ease;
+        }
+        
+        .tech-tag:hover {
+            transform: scale(1.1);
+        }
+        
+        .tech-tag:nth-child(5n+1) {
+            background: var(--color-primary);
+        }
+        
+        .tech-tag:nth-child(5n+2) {
+            background: var(--color-secondary);
+        }
+        
+        .tech-tag:nth-child(5n+3) {
+            background: var(--color-accent);
+        }
+        
+        .tech-tag:nth-child(5n+4) {
+            background: var(--color-success);
+        }
+        
+        .tech-tag:nth-child(5n) {
+            background: var(--color-pink);
         }
 
         .impact-metrics {
@@ -254,12 +295,34 @@
         }
 
         .metric-card {
-            background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
             color: white;
             padding: 20px;
             border-radius: 15px;
             text-align: center;
-            box-shadow: 0 8px 20px rgba(52, 152, 219, 0.3);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .metric-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+        }
+        
+        .metric-card:nth-child(1) {
+            background: var(--gradient-primary);
+        }
+        
+        .metric-card:nth-child(2) {
+            background: var(--gradient-secondary);
+        }
+        
+        .metric-card:nth-child(3) {
+            background: var(--gradient-accent);
+        }
+        
+        .metric-card:nth-child(4) {
+            background: var(--gradient-success);
         }
 
         .metric-value {
@@ -324,13 +387,15 @@
         }
 
         .quote-section {
-            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            background: var(--gradient-secondary);
             color: white;
-            padding: 40px;
+            padding: 50px 40px;
             text-align: center;
             margin: 40px 0;
-            border-radius: 15px;
+            border-radius: 20px;
             position: relative;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+            transform: perspective(1px) translateZ(0);
         }
 
         .quote-section::before {
@@ -407,11 +472,35 @@
         }
 
         .footer {
-            background: #2c3e50;
+            background: var(--gradient-primary);
             color: white;
-            padding: 30px;
+            padding: 40px;
             text-align: center;
-            margin-top: 40px;
+            margin-top: 60px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .footer::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: pulse 4s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+                opacity: 0.5;
+            }
+            50% {
+                transform: scale(1.1);
+                opacity: 0.8;
+            }
         }
 
         @media (max-width: 768px) {
@@ -450,8 +539,8 @@
         <div class="resume-card">
             <div class="header">
                 <div class="header-content">
-                    <h1 class="name">Tia Astor</h1>
-                    <p class="title">Systems Designer & Social Innovation Architect</p>
+                    <h1 class="name">🌟 Tia Astor 🌟</h1>
+                    <p class="title">👩‍💻 Systems Designer & Social Innovation Architect 🚀</p>
                     <div class="contact-info">
                         <div class="contact-item">
                             <span>📧</span>
@@ -496,19 +585,19 @@
                     <h2 class="section-title">Impact Metrics</h2>
                     <div class="impact-metrics">
                         <div class="metric-card">
-                            <div class="metric-value">$19T</div>
+                            <div class="metric-value">💰 $19T</div>
                             <div class="metric-label">Economic Solution Value</div>
                         </div>
                         <div class="metric-card">
-                            <div class="metric-value">12</div>
+                            <div class="metric-value">📜 12</div>
                             <div class="metric-label">Systemic Reform Acts</div>
                         </div>
                         <div class="metric-card">
-                            <div class="metric-value">4</div>
+                            <div class="metric-value">🚀 6+</div>
                             <div class="metric-label">Major Projects</div>
                         </div>
                         <div class="metric-card">
-                            <div class="metric-value">100%</div>
+                            <div class="metric-value">💯 100%</div>
                             <div class="metric-label">Open Source</div>
                         </div>
                     </div>
