@@ -44,3 +44,21 @@ Embrace the journey through Tia's work, where technical prowess meets heartfelt 
 ---
 
 *Designed for impact, built with love.*
+
+## Related Repositories
+
+This repository is part of the Tiation GitHub ecosystem. For a complete overview of all repositories and their relationships, see the [Repository Index](../REPOSITORY_INDEX.md).
+
+### Direct Dependencies
+- [grieftodesign](../grieftodesign/) - Design projects
+- [tiation](../tiation/) - Main organization
+- Links to all major projects
+
+### Quick Links
+- [Repository Index](../REPOSITORY_INDEX.md) - Complete repository overview
+- [Development Setup](../ubuntu-dev-setup/README.md) - Development environment setup
+- [Workflows](../workflows/) - CI/CD templates
+- [Infrastructure](../server-configs-gae/) - Deployment configurations
+
+---
+*Part of the [Tiation](../tiation/) ecosystem*
