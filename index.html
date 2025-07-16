@@ -192,24 +192,28 @@
         }
 
         .project-card {
-            background: white;
+            background: var(--bg-secondary);
             border-radius: 15px;
             padding: 25px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            box-shadow: 0 10px 25px var(--shadow-color);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
-            border: 2px solid transparent;
+            border: 2px solid var(--border-color);
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            display: block;
         }
 
         .project-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
-            border-color: #3498db;
+            box-shadow: 0 15px 35px var(--shadow-color);
+            border-color: var(--color-primary);
         }
 
         .project-title {
             font-size: 1.3em;
             font-weight: 600;
-            color: #2c3e50;
+            color: var(--text-primary);
             margin-bottom: 10px;
             display: flex;
             align-items: center;
@@ -221,7 +225,7 @@
         }
 
         .project-description {
-            color: #666;
+            color: var(--text-secondary);
             margin-bottom: 15px;
             line-height: 1.6;
         }
@@ -234,7 +238,7 @@
         }
 
         .tech-tag {
-            background: #3498db;
+            background: var(--color-primary);
             color: white;
             padding: 4px 12px;
             border-radius: 20px;
@@ -437,6 +441,9 @@
     </style>
 </head>
 <body>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        🌙
+    </button>
     <div class="container">
         <div class="resume-card">
             <div class="header">
@@ -508,7 +515,7 @@
                 <div class="section">
                     <h2 class="section-title">Key Projects</h2>
                     <div class="project-grid">
-                        <div class="project-card">
+                        <a href="https://github.com/tiation/19-trillion-solution" class="project-card" target="_blank" rel="noopener noreferrer">
                             <div class="project-title">
                                 <span class="project-icon">💰</span>
                                 The $19 Trillion Solution
@@ -524,9 +531,9 @@
                                 <span class="tech-tag">Policy Design</span>
                             </div>
                             <p><strong>Impact:</strong> Mathematical proof of systemic economic transformation feasibility</p>
-                        </div>
+                        </a>
 
-                        <div class="project-card">
+                        <a href="https://github.com/tiation/grief-to-design" class="project-card" target="_blank" rel="noopener noreferrer">
                             <div class="project-title">
                                 <span class="project-icon">🐰</span>
                                 Grief-to-Design Blueprint
@@ -541,9 +548,9 @@
                                 <span class="tech-tag">Community Building</span>
                             </div>
                             <p><strong>Impact:</strong> Framework for converting tragedy into prevention systems</p>
-                        </div>
+                        </a>
 
-                        <div class="project-card">
+                        <a href="https://github.com/tiation/enterprise-intranet" class="project-card" target="_blank" rel="noopener noreferrer">
                             <div class="project-title">
                                 <span class="project-icon">🏢</span>
                                 Enterprise Intranet System
@@ -559,9 +566,9 @@
                                 <span class="tech-tag">GitHub Actions</span>
                             </div>
                             <p><strong>Impact:</strong> Streamlined enterprise communication and collaboration</p>
-                        </div>
+                        </a>
 
-                        <div class="project-card">
+                        <a href="https://github.com/tiation/dnd-dice-roller" class="project-card" target="_blank" rel="noopener noreferrer">
                             <div class="project-title">
                                 <span class="project-icon">🎲</span>
                                 D&D Dice Roller Simulator
@@ -577,9 +584,9 @@
                                 <span class="tech-tag">UX Design</span>
                             </div>
                             <p><strong>Impact:</strong> Enhanced gaming experience for tabletop RPG enthusiasts</p>
-                        </div>
+                        </a>
 
-                        <div class="project-card">
+                        <a href="https://github.com/tiation/rigger-connect" class="project-card" target="_blank" rel="noopener noreferrer">
                             <div class="project-title">
                                 <span class="project-icon">⚡</span>
                                 RiggerConnect Enterprise
@@ -595,7 +602,25 @@
                                 <span class="tech-tag">AWS</span>
                             </div>
                             <p><strong>Impact:</strong> Streamlined industrial workforce management</p>
-                        </div>
+                        </a>
+
+                        <a href="https://github.com/tiation/tiation" class="project-card" target="_blank" rel="noopener noreferrer">
+                            <div class="project-title">
+                                <span class="project-icon">🚀</span>
+                                Tiation Core Repository
+                            </div>
+                            <div class="project-description">
+                                Main repository for Tiation organization. Contains foundational documentation, architectural decisions, and central coordination for all systemic change initiatives. The hub for technology-driven social innovation projects.
+                            </div>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Documentation</span>
+                                <span class="tech-tag">Architecture</span>
+                                <span class="tech-tag">Open Source</span>
+                                <span class="tech-tag">Systems Thinking</span>
+                                <span class="tech-tag">Social Impact</span>
+                            </div>
+                            <p><strong>Impact:</strong> Central coordination for systemic change initiatives</p>
+                        </a>
                     </div>
                 </div>
 
@@ -801,6 +826,30 @@
     <script>
         // Add smooth scrolling and animations
         document.addEventListener('DOMContentLoaded', function() {
+            // Theme toggle functionality
+            const themeToggle = document.getElementById('themeToggle');
+            const body = document.body;
+            
+            // Check for saved theme preference or default to light mode
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            if (savedTheme === 'dark') {
+                body.setAttribute('data-theme', 'dark');
+                themeToggle.textContent = '☀️';
+            }
+            
+            themeToggle.addEventListener('click', function() {
+                const currentTheme = body.getAttribute('data-theme');
+                if (currentTheme === 'dark') {
+                    body.removeAttribute('data-theme');
+                    themeToggle.textContent = '🌙';
+                    localStorage.setItem('theme', 'light');
+                } else {
+                    body.setAttribute('data-theme', 'dark');
+                    themeToggle.textContent = '☀️';
+                    localStorage.setItem('theme', 'dark');
+                }
+            });
+            
             // Animate skill bars on scroll
             const skillBars = document.querySelectorAll('.skill-progress');
             const observer = new IntersectionObserver((entries) => {
