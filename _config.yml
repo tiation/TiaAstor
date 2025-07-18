@@ -1,28 +1,31 @@
 # GitHub Pages Configuration
-title: "Tia Astor - Professional Resume"
-description: "Systems Designer & Social Innovation Architect"
-author: "Tia Astor"
-email: "tiatheone@protonmail.com"
+title: "TiaAstor"
+description: "Enterprise-grade solution in the Tiation ecosystem"
+url: "https://tiation.github.io/TiaAstor"
+baseurl: ""
 
-# GitHub Pages settings
-github:
-  repository_name: "TiaAstor"
-  repository_nwo: "tiation/TiaAstor"
-  repository_url: "https://github.com/tiation/TiaAstor"
-  owner_name: "tiation"
-  owner_url: "https://github.com/tiation"
-
-# Build settings
+# Theme
+theme: minima
 markdown: kramdown
 highlighter: rouge
+
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
-# Exclude files
-exclude:
-  - README.md
-  - SETUP_INSTRUCTIONS.md
-  - DEPLOYMENT_SUMMARY.md
-  - setup_github.sh
-  - .gitignore
+# Dark neon theme
+custom_css: |
+  :root {
+    --primary-color: #00ffff;
+    --secondary-color: #ff00ff;
+    --background-color: #0a0a0a;
+    --text-color: #ffffff;
+    --accent-color: #00ff88;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+    color: var(--text-color);
+  }
