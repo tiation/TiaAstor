@@ -1,17 +1,17 @@
-# 🌟👩‍💻 Tia Astor: Systems Designer & Social Innovation Architect
+# 🌟 Tia Astor: Systems Designer & Social Innovation Architect
 
 <div align="center">
 
-![Tia Astor Banner](https://img.shields.io/badge/Transform-Systems%20With%20Love-purple?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTEyIDJsLjkxIDMLjUxaDMuNjlsLTIuOTggMi4xNyAxLjE0IDMuNTFMMTIgOS4xMiA5LjI0IDExLjE5bDEuMTQtMy41MUw3LjQgNS41MWgzLjY5TDEyIDJ6Ii8+PC9zdmc+)
+![Tiation Banner](https://img.shields.io/badge/🔮_TIATION_ECOSYSTEM-Transform_Systems_With_Love-00FFFF?style=for-the-badge&labelColor=0A0A0A&color=FF00FF)
 
 **"Technology and heart, woven into systemic change"**
 
-*Welcome to my professional journey through social innovation and systems transformation*
+*Combining Criminology & Psychology with cutting-edge technology*
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen?style=flat-square)](https://tiation.github.io/TiaAstor/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square)](https://www.linkedin.com/in/tiation/)
-[![Projects](https://img.shields.io/badge/Projects-View%20All-orange?style=flat-square)](https://github.com/tiation)
-[![Contact](https://img.shields.io/badge/Email-tiatheone%40protonmail.com-red?style=flat-square)](mailto:tiatheone@protonmail.com)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Live_Demo-00FFFF?style=flat-square&labelColor=0A0A0A)](https://tiation.github.io/TiaAstor/)
+[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Connect-007FFF?style=flat-square&labelColor=0A0A0A)](https://www.linkedin.com/in/tiation/)
+[![GitHub](https://img.shields.io/badge/⚡_Projects-View_All-FF00FF?style=flat-square&labelColor=0A0A0A)](https://github.com/tiation)
+[![Email](https://img.shields.io/badge/📧_Email-Contact_Me-00FFFF?style=flat-square&labelColor=0A0A0A)](mailto:tiatheone@protonmail.com)
 
 </div>
 
