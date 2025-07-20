@@ -2,60 +2,59 @@
 
 <div align="center">
 
-![Tia Astor Banner](https://img.shields.io/badge/🔮_TIATION-Tia_Astor-00FFFF?style=for-the-badge&labelColor=0A0A0A&color=00FFFF)
+![Tia Astor Banner](https://img.shields.io/badge/🔮_TIATION-Tia_Astor-00FFFF?style=for-the-badge&labelColor=0A0A0A&color=00FFFF&label=Tia%20Astor)
 
 **🌟 Senior Software Engineer & Enterprise Architect**
 
 *Innovation • Engineering Excellence • Mission-Driven Leadership*
 
-[![⚡ Status](https://img.shields.io/badge/⚡_Status-Available_for_Projects-FF00FF?style=flat-square&labelColor=0A0A0A&logo=github&logoColor=white)](https://github.com/tiation)
-[![📱 iOS Development](https://img.shields.io/badge/📱_iOS-Swift_•_React_Native-00FFFF?style=flat-square&labelColor=0A0A0A&logo=apple&logoColor=white)](https://github.com/tiation)
-[![💻 Full Stack](https://img.shields.io/badge/💻_Stack-TypeScript_•_Node-FF00FF?style=flat-square&labelColor=0A0A0A&logo=typescript&logoColor=white)](https://github.com/tiation)
-[![🛠 DevOps](https://img.shields.io/badge/🛠_DevOps-Docker_•_K8s-00FFFF?style=flat-square&labelColor=0A0A0A&logo=docker&logoColor=white)](https://github.com/tiation)
+[![⚡ Status](https://img.shields.io/badge/⚡_Status-Open_for_Projects-FF00FF?style=flat-square&labelColor=0A0A0A&logo=github&logoColor=white)](https://github.com/tiation)
+[![📱 iOS Development](https://img.shields.io/badge/📱_iOS-Expert-00FFFF?style=flat-square&labelColor=0A0A0A&logo=apple&logoColor=white)](https://github.com/tiation)
+[![💻 Full Stack](https://img.shields.io/badge/💻_Stack-Full_Stack_Development-FF00FF?style=flat-square&labelColor=0A0A0A&logo=typescript&logoColor=white)](https://github.com/tiation)
+[![🛠 DevOps](https://img.shields.io/badge/🛠_DevOps-Modern-Workflows-00FFFF?style=flat-square&labelColor=0A0A0A&logo=docker&logoColor=white)](https://github.com/tiation)
 [![🔒 Security](https://img.shields.io/badge/🔒_Security-Enterprise_Grade-FF00FF?style=flat-square&labelColor=0A0A0A&logo=security&logoColor=white)](https://github.com/tiation)
-[![☁️ Cloud](https://img.shields.io/badge/☁️_Cloud-AWS_•_GCP-00FFFF?style=flat-square&labelColor=0A0A0A&logo=amazon-aws&logoColor=white)](https://github.com/tiation)
+[![☁️ Cloud](https://img.shields.io/badge/☁️_Cloud-Scalable_Solutions-00FFFF?style=flat-square&labelColor=0A0A0A&logo=amazon-aws&logoColor=white)](https://github.com/tiation)
 
 </div>
 
 ## 🚀 Overview
 
-I'm **Tia Astor**, a passionate software engineer and enterprise architect with over a decade of experience in building scalable, innovative solutions. As the founder of Tiation, I lead the development of enterprise-grade applications with a focus on the construction and mining industries in Western Australia.
+I'm **Tia Astor**, a dedicated software engineer and visionary enterprise architect with over a decade of experience in crafting scalable, forward-thinking solutions. As the founder of Tiation, I lead the development of cutting-edge enterprise applications, particularly in the construction and mining sectors of Western Australia.
 
-My expertise spans native iOS development, enterprise architecture, and cloud infrastructure, with a proven track record of delivering high-impact solutions for industry-leading organizations.
+Leveraging deep expertise in native iOS development, robust enterprise architecture, and cloud infrastructure, I deliver transformative solutions for leading organizations worldwide.
 
-> 🎯 **Mission**: Empowering businesses through innovative technology and enterprise-grade solutions that drive real-world impact.
+> 🎯 **Mission**: Driving business success through innovative technology and robust, enterprise-grade solutions.
 
-> 💫 **Vision**: Creating transformative digital experiences that set new standards in enterprise software development.
+> 💫 **Vision**: Transforming industries with pioneering digital experiences and setting new standards in enterprise software.
 
 ### ✨ Core Competencies
 
 #### 🏗️ Architecture & Development
-- Enterprise-grade distributed systems architecture
-- Microservices and event-driven architectures
-- Cloud-native application development
-- High-performance mobile applications
-- Advanced database design and optimization
+- Architecting scalable distributed systems
+- Leading microservices and event-driven architectures
+- Developing cloud-native applications
+- Crafting high-performance mobile applications
+- Designing optimized database architectures
 
 #### 🛠️ Technical Expertise
-- **Mobile:** Swift, UIKit, React Native, iOS Architecture
-- **Frontend:** TypeScript, React.js, Next.js, GraphQL
+- **Mobile:** Swift, UIKit, React Native, MVVM Architecture
+- **Frontend:** TypeScript, React, Next.js, GraphQL
 - **Backend:** Node.js, NestJS, PostgreSQL, Redis
 - **Cloud:** AWS, GCP, Kubernetes, Terraform
-- **DevOps:** CI/CD, Docker, Infrastructure as Code
+- **DevOps:** CI/CD Pipelines, Docker, Infrastructure Automation
 
 #### 👥 Leadership & Management
-- Technical team leadership and mentoring
-- Agile development methodologies
-- Product strategy and roadmap planning
-- Stakeholder communication and management
-- Cross-functional team collaboration
+- Leading and mentoring technical teams
+- Implementing agile development methodologies
+- Strategizing product development and roadmaps
+- Managing stakeholder communications
+- Facilitating cross-functional collaborations
 
 #### 🎯 Industry Focus
-- Construction and mining solutions
-- Enterprise SaaS platforms
-- Mobile-first applications
-- Process automation
-- Digital transformation
+- Technology solutions for construction and mining
+- SaaS platform development
+- Mobile-first application strategies
+- Process automation and digital transformation
 
 ---
 
@@ -64,27 +63,27 @@ My expertise spans native iOS development, enterprise architecture, and cloud in
 ```mermaid
 graph TB
     subgraph Enterprise Solutions
-        RH[RiggerHireApp Platform]   
-        RC[RiggerConnect iOS]   
-        RJ[RiggerJobs iOS]   
+        RH[RiggerHireApp Platform]
+        RC[RiggerConnect iOS]
+        RJ[RiggerJobs iOS]
     end
-    
+
     subgraph Development Tools
         TW[Terminal Workflows]
         DD[Docker & DevOps]
     end
-    
+
     subgraph Creative Projects
         DND[DnD Tools Suite]
         AFL[AFL Fantasy Manager]
     end
-    
+
     RH --> RC
     RH --> RJ
     RC --> TW
     RJ --> TW
     DD --> TW
-    
+
     style RH fill:#00ffff,stroke:#ff00ff,stroke-width:2px
     style RC fill:#ff00ff,stroke:#00ffff,stroke-width:2px
     style RJ fill:#00ffff,stroke:#ff00ff,stroke-width:2px
@@ -111,12 +110,12 @@ graph TB
 - Integrated payment processing and invoicing
 - Advanced analytics and reporting dashboard
 
-#### Technical Achievement Highlights
+#### Technical Achievements
 - Scaled to support 10,000+ active users
-- 99.99% system uptime
-- Sub-100ms API response times
-- WCAG 2.1 AA compliance
-- ISO 27001 certified infrastructure
+- Maintained 99.99% system uptime
+- Achieved sub-100ms API response times
+- Complied with WCAG 2.1 AA standards
+- Utilized ISO 27001 certified infrastructure
 
 #### iOS Applications
 - **RiggerConnect** (React Native)
