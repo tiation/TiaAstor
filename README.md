@@ -1,12 +1,12 @@
-# TiaAstor
+# Tia Astor - Professional Profile
 
 <div align="center">
 
-![TiaAstor Banner](https://img.shields.io/badge/🔮_TIATION-TiaAstor-00FFFF?style=for-the-badge&labelColor=0A0A0A&color=00FFFF)
+![Tia Astor Banner](https://img.shields.io/badge/🔮_TIATION-Tia_Astor-00FFFF?style=for-the-badge&labelColor=0A0A0A&color=00FFFF)
 
-**🌟 TiaAstor - Enterprise Solution**
+**🌟 Senior Software Engineer & Enterprise Architect**
 
-*Professional • Scalable • Mission-Driven*
+*Innovation • Engineering Excellence • Mission-Driven Leadership*
 
 [![⚡_Status](https://img.shields.io/badge/⚡_Status-Active_Development-FF00FF?style=flat-square&labelColor=0A0A0A&logo=github&logoColor=white)](https://github.com/tiation/TiaAstor)
 [![📄_License](https://img.shields.io/badge/📄_License-MIT-00FFFF?style=flat-square&labelColor=0A0A0A&logo=opensourceinitiative&logoColor=white)](https://github.com/tiation/TiaAstor/blob/main/LICENSE)
@@ -15,52 +15,72 @@
 
 ## 🚀 Overview
 
-**TiaAstor** is part of the Tiation enterprise ecosystem, delivering professional-grade solutions for modern business challenges.
+I'm **Tia Astor**, a passionate software engineer and enterprise architect specializing in building scalable, innovative solutions. As the founder of Tiation, I lead the development of enterprise-grade applications with a focus on the construction and mining industries in Western Australia.
 
-> 🎯 **Mission**: Provide scalable, enterprise-ready solutions through innovative technology and collaborative frameworks.
+> 🎯 **Mission**: Empowering businesses through innovative technology and enterprise-grade solutions that drive real-world impact.
 
-### ✨ Key Features
+### ✨ Areas of Expertise
 
-- 🎯 **Enterprise Grade** - Production-ready with comprehensive testing and monitoring
-- 🔧 **Scalable Architecture** - Built for growth and high-performance requirements  
-- 🌟 **Modern Technology** - Leveraging cutting-edge frameworks and best practices
-- 🛡️ **Security First** - Built with security and compliance as core priorities
+- 🎯 **Enterprise Architecture** - Designing and implementing scalable, production-ready systems
+- 🔧 **Full-Stack Development** - Specializing in TypeScript, React Native, and Swift
+- 🌟 **Mobile-First Solutions** - Creating intuitive, responsive applications for iOS and web platforms
+- 🛡️ **Security & Compliance** - Ensuring robust security practices and industry standard compliance
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ Key Projects & Contributions
 
 ```mermaid
 graph TB
-    A[Core Components] --> B[Business Logic]
-    B --> C[Integration Layer]
-    C --> D[Data Layer]
+    subgraph Enterprise Solutions
+        RH[RiggerHireApp Platform]   
+        RC[RiggerConnect iOS]   
+        RJ[RiggerJobs iOS]   
+    end
     
-    style A fill:#00ffff,stroke:#ff00ff,stroke-width:3px
-    style B fill:#ff00ff,stroke:#00ffff,stroke-width:3px
-    style C fill:#00ff00,stroke:#ffff00,stroke-width:3px
+    subgraph Development Tools
+        TW[Terminal Workflows]
+        DD[Docker & DevOps]
+    end
+    
+    subgraph Creative Projects
+        DND[DnD Tools Suite]
+        AFL[AFL Fantasy Manager]
+    end
+    
+    RH --> RC
+    RH --> RJ
+    RC --> TW
+    RJ --> TW
+    DD --> TW
+    
+    style RH fill:#00ffff,stroke:#ff00ff,stroke-width:2px
+    style RC fill:#ff00ff,stroke:#00ffff,stroke-width:2px
+    style RJ fill:#00ffff,stroke:#ff00ff,stroke-width:2px
+    style TW fill:#ff00ff,stroke:#00ffff,stroke-width:2px
+    style DD fill:#00ffff,stroke:#ff00ff,stroke-width:2px
+    style DND fill:#ff00ff,stroke:#00ffff,stroke-width:2px
+    style AFL fill:#00ffff,stroke:#ff00ff,stroke-width:2px
 ```
 
 ---
 
-## 📦 Installation
+## 📦 Featured Projects
 
-### Quick Start
+### RiggerHireApp Platform
+A comprehensive B2B SaaS solution for the construction and mining industries in Western Australia, facilitating the connection between businesses and skilled workers.
 
-```bash
-# Clone the repository
-git clone https://github.com/tiation/TiaAstor.git
-cd TiaAstor
+### iOS Applications
+- **RiggerConnect**: React Native app for connecting riggers with job opportunities
+- **RiggerJobs**: Native Swift/UIKit app for businesses to post and manage job listings
 
-# Follow installation instructions
-# (See project-specific setup in the repository)
-```
+### Development Tools
+- **Terminal Workflows**: Custom automation and productivity tools for developers
+- **Docker Solutions**: Enterprise-grade container orchestration and deployment
 
----
-
-## 🎯 Usage
-
-This project is part of the larger Tiation ecosystem. Please refer to the project documentation for specific usage instructions and integration guidelines.
+### Creative Projects
+- **DnD Tools Suite**: Digital tools for Dungeons & Dragons enthusiasts
+- **AFL Fantasy Manager**: Sports management and analytics platform
 
 ---
 
@@ -72,17 +92,15 @@ This project is part of the larger Tiation ecosystem. Please refer to the projec
 
 ---
 
-## 🤝 Contributing
+## 🤝 Connect With Me
 
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+I'm always interested in collaborating on innovative projects and discussing technology solutions.
 
-### Development Setup
+### Get in Touch
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
+- 📧 Email: tiatheone@protonmail.com
+- 💼 GitHub: [github.com/tiation](https://github.com/tiation)
+- 🌐 Projects: [github.com/tiation-repos](https://github.com/tiation-repos)
 
 ---
 
@@ -106,11 +124,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
   <p>
-    <strong>Built with ❤️ by the Tiation Team</strong>
+    <strong>Building the future of enterprise software, one commit at a time 💫</strong>
   </p>
   <p>
     <a href="https://github.com/tiation">
-      <img src="https://img.shields.io/badge/Powered%20by-Tiation-cyan.svg" alt="Powered by Tiation">
+      <img src="https://img.shields.io/badge/Founder-Tiation-cyan.svg" alt="Founder of Tiation">
     </a>
   </p>
 </div>
