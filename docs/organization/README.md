@@ -1,103 +1,149 @@
 # Organization Overview
 
-## Enterprise Solutions Portfolio
+## Social Impact & Economic Reform Focus
 
-### Brand Identity
+ChaseWhiteRabbit is a non-governmental organization (NGO) dedicated to driving positive social change and economic reform through innovative technology solutions. Our mission is to transform grief into meaningful design and implement economic reforms that benefit society as a whole.
+
+### Core Mission
 ```mermaid
 graph TB
-    subgraph Visual Identity
-        style[Dark Neon Theme]
-        colors[Cyan/Magenta Gradients]
-        approach[Mobile-First Design]
+    subgraph Social Impact
+        Grief[Grief to Design]
+        Reform[Economic Reform]
+        Social[Social Change]
     end
 
+    subgraph Implementation
+        Tech[Technology Solutions]
+        Research[Research & Analysis]
+        Action[Action Plans]
+    end
+
+    Grief --> Tech
+    Reform --> Research
+    Social --> Action
+
+    Tech --> Implementation
+    Research --> Implementation
+    Action --> Implementation
+
+    style Grief fill:#00ffff,stroke:#ff00ff,stroke-width:2px
+    style Reform fill:#ff00ff,stroke:#00ffff,stroke-width:2px
+    style Social fill:#00ffff,stroke:#ff00ff,stroke-width:2px
+    style Implementation fill:#ff00ff,stroke:#00ffff,stroke-width:2px
+```
+
+## Organization Portfolio
+
+### Organization Identity
+```mermaid
+graph TB
     subgraph Core Values
-        innovation[Innovation]
-        quality[Enterprise Quality]
-        accessibility[Universal Access]
+        transform[Transform Grief]
+        reform[Economic Reform]
+        impact[Social Impact]
+    end
+
+    subgraph Implementation
+        design[Design Thinking]
+        research[Economic Research]
+        tech[Technology Solutions]
     end
 
     subgraph Standards
-        tech[TypeScript & Testing]
-        security[Enterprise Security]
-        compliance[WCAG Compliance]
+        quality[Enterprise Quality]
+        access[Universal Access]
+        ethics[Ethical Standards]
     end
+
+    transform --> design
+    reform --> research
+    impact --> tech
+
+    design --> quality
+    research --> access
+    tech --> ethics
+
+    style transform fill:#00ffff,stroke:#ff00ff,stroke-width:2px
+    style reform fill:#ff00ff,stroke:#00ffff,stroke-width:2px
+    style impact fill:#00ffff,stroke:#ff00ff,stroke-width:2px
 ```
 
-## Business Divisions
+## Impact Initiatives
 
-### Rigger Platform
-*Enterprise Recruitment Solutions*
+### Economic Reform Platform
+*Innovative Economic Solutions*
 
 ```mermaid
 graph LR
-    subgraph RiggerHireApp
-        Platform[Core Platform]
-        iOS[iOS Applications]
-        Web[Web Platform]
-        API[API Services]
+    subgraph Economic Solutions
+        Research[Economic Research]
+        Analysis[Impact Analysis]
+        Models[Economic Models]
+        Tools[Analysis Tools]
     end
 
-    subgraph Technology
-        Mobile[Mobile Development]
-        Cloud[Cloud Infrastructure]
-        AI[AI Services]
+    subgraph Implementation
+        Policy[Policy Framework]
         Data[Data Analytics]
+        AI[AI Analysis]
+        Impact[Impact Assessment]
     end
 
-    Platform --> iOS
-    Platform --> Web
-    Platform --> API
-    
-    Mobile --> iOS
-    Cloud --> Platform
-    AI --> Platform
-    Data --> Platform
+    Research --> Policy
+    Analysis --> Data
+    Models --> AI
+    Tools --> Impact
 
-    style Platform fill:#00ffff,stroke:#ff00ff,stroke-width:2px
-    style iOS fill:#ff00ff,stroke:#00ffff,stroke-width:2px
-    style Web fill:#00ffff,stroke:#ff00ff,stroke-width:2px
-    style API fill:#ff00ff,stroke:#00ffff,stroke-width:2px
+    Policy --> Implementation
+    Data --> Implementation
+    AI --> Implementation
+    Impact --> Implementation
+
+    style Research fill:#00ffff,stroke:#ff00ff,stroke-width:2px
+    style Analysis fill:#ff00ff,stroke:#00ffff,stroke-width:2px
+    style Models fill:#00ffff,stroke:#ff00ff,stroke-width:2px
+    style Tools fill:#ff00ff,stroke:#00ffff,stroke-width:2px
 ```
 
-### Gaming Solutions
-*Enterprise Gaming Platforms*
+### Social Impact Solutions
+*Transform Grief to Design*
 
 ```mermaid
 graph LR
-    subgraph DnD Platform
-        Dice[DnD Dice Roller]
-        Sheets[Character Sheets]
-        Campaign[Campaign Manager]
+    subgraph Transformation
+        Grief[Grief Processing]
+        Design[Design Thinking]
+        Impact[Impact Creation]
     end
 
-    subgraph Sports Platform
-        AFL[AFL Fantasy Manager]
-        Stats[Statistics Engine]
-        Analytics[Analytics Platform]
+    subgraph Implementation
+        Research[Research Methods]
+        Tools[Design Tools]
+        Metrics[Impact Metrics]
     end
 
-    subgraph Common Infrastructure
-        UI[UI Components]
-        Backend[Backend Services]
-        Data[Data Platform]
+    subgraph Outcomes
+        Social[Social Change]
+        Innovation[Innovation]
+        Growth[Personal Growth]
     end
 
-    UI --> Dice
-    UI --> Sheets
-    UI --> AFL
-    Backend --> Campaign
-    Backend --> Stats
-    Data --> Analytics
+    Grief --> Research
+    Design --> Tools
+    Impact --> Metrics
 
-    style Dice fill:#00ffff,stroke:#ff00ff,stroke-width:2px
-    style Sheets fill:#ff00ff,stroke:#00ffff,stroke-width:2px
-    style AFL fill:#00ffff,stroke:#ff00ff,stroke-width:2px
-    style Analytics fill:#ff00ff,stroke:#00ffff,stroke-width:2px
+    Research --> Social
+    Tools --> Innovation
+    Metrics --> Growth
+
+    style Grief fill:#00ffff,stroke:#ff00ff,stroke-width:2px
+    style Design fill:#ff00ff,stroke:#00ffff,stroke-width:2px
+    style Impact fill:#00ffff,stroke:#ff00ff,stroke-width:2px
 ```
 
-### Platform Services
-*Enterprise Infrastructure*
+### Support Services
+*Technology Infrastructure*
 
 ```mermaid
 graph TB
@@ -132,120 +178,154 @@ graph TB
     style K8s fill:#00ffff,stroke:#ff00ff,stroke-width:2px
 ```
 
-## Technical Standards
+## Organization Standards
+
+### Core Values
+- Social impact through innovation
+- Economic reform for societal benefit
+- Transformation of grief into design
+- Universal accessibility and inclusion
+- Ethical technology development
 
 ### Development Standards
-- TypeScript throughout all projects
-- Comprehensive testing suites
-- Enterprise-grade security practices
-- WCAG compliance for accessibility
-- Robust error handling and logging
-- Automated CI/CD pipelines
+- Evidence-based research methodology
+- Comprehensive impact assessment
+- Inclusive design practices
+- Universal accessibility
+- Ethical data handling
 
-### Visual Standards
-- Dark neon theme implementation
-- Cyan/magenta gradient system
-- Mobile-first responsive design
-- Enterprise-grade UI components
-- Consistent brand identity
+### Research Standards
+- Rigorous methodology
+- Peer review process
+- Data-driven analysis
+- Ethical considerations
+- Impact assessment
 
-### Quality Standards
-- Enterprise-grade code quality
-- Comprehensive documentation
-- Security-first development
-- Performance optimization
-- Accessibility compliance
+### Impact Standards
+- Measurable outcomes
+- Community engagement
+- Sustainable solutions
+- Ethical implementation
+- Continuous evaluation
 
-## Research & Innovation
+## Research & Impact
 
-### Economic Innovation
-- Economic reform research
-- Proposal development
-- Impact analysis
-- Implementation strategies
-- Stakeholder engagement
+### Economic Reform
+- Economic system analysis
+- Reform proposals
+- Implementation frameworks
+- Impact assessment
+- Policy recommendations
 
-### Design Methodology
-- Design thinking principles
-- Transformation methodologies
-- User-centered design
-- Innovation frameworks
-- Research integration
+### Grief to Design
+- Transformation methodology
+- Design thinking application
+- Community engagement
+- Impact measurement
+- Knowledge sharing
 
-## Product Portfolio
+### Social Innovation
+- Community-driven solutions
+- Ethical technology
+- Inclusive design
+- Sustainable impact
+- Cultural consideration
 
-### Enterprise Solutions
-- RiggerHireApp Platform
-- Gaming Solutions Suite
-- AI & Platform Services
-- Infrastructure Solutions
-- SaaS Applications
+## Initiative Portfolio
 
-### Mobile Applications
-- RiggerHireApp iOS
-- DnD Dice Roller
-- AFL Fantasy Manager
-- Enterprise Tools
-- Utility Applications
+### Economic Reform
+- Economic Analysis Platform
+- Reform Implementation Framework
+- Impact Assessment Tools
+- Policy Development Platform
+- Data Analytics Suite
 
-### Platform Services
-- AI Platform
-- Core Platform
-- Sales Platform
-- Infrastructure
-- Integration Services
+### Social Transformation
+- Grief to Design Platform
+- Community Engagement Tools
+- Impact Measurement System
+- Knowledge Sharing Platform
+- Collaboration Framework
 
-## Market Focus
+### Support Infrastructure
+- Research Platform
+- Analysis Tools
+- Data Management
+- Collaboration Systems
+- Impact Tracking
 
-### Industry Sectors
-- Construction & Mining
-- Gaming & Entertainment
-- Enterprise Software
-- Platform Services
-- Infrastructure Solutions
+## Impact Focus
 
-### Geographic Focus
-- Western Australia Primary
-- Australia Secondary
-- Global Tertiary
-- Digital Presence
-- Cloud Distribution
-
-## Innovation Focus
-
-### Current Initiatives
-- AI Integration
-- Platform Evolution
-- Mobile Innovation
-- Infrastructure Automation
-- Security Enhancement
+### Social Sectors
+- Economic Reform
+- Social Transformation
+- Community Development
+- Cultural Change
+- Sustainable Impact
 
 ### Research Areas
-- Economic Reform
-- Design Methodology
-- AI Applications
-- Platform Architecture
-- User Experience
+- Economic Systems
+- Social Innovation
+- Grief Processing
+- Design Thinking
+- Impact Assessment
 
-## Enterprise Standards
+### Geographic Scope
+- Local Communities
+- National Impact
+- Global Influence
+- Digital Reach
+- Cultural Adaptation
 
-### Technical Excellence
-- Enterprise-grade quality
-- Comprehensive testing
-- Security-first approach
-- Performance optimization
-- Scalable architecture
+## Change Focus
 
-### Business Alignment
-- Industry focus
-- Market adaptation
-- Innovation drive
-- Customer centricity
-- Value delivery
+### Current Initiatives
+- Economic System Reform
+- Grief Transformation
+- Community Engagement
+- Impact Measurement
+- Knowledge Sharing
 
-### Operational Excellence
-- Process automation
+### Research Areas
+- Economic Reform Models
+- Social Impact Assessment
+- Transformation Methodologies
+- Community Development
+- Sustainable Change
+
+### Technology Focus
+- Ethical AI Development
+- Inclusive Design
+- Accessible Platforms
+- Data Privacy
+- Sustainable Solutions
+
+## Organization Excellence
+
+### Research Excellence
+- Evidence-based methodology
+- Rigorous analysis
+- Peer review process
+- Impact assessment
+- Knowledge sharing
+
+### Social Impact
+- Community engagement
+- Cultural sensitivity
+- Ethical considerations
+- Sustainable outcomes
+- Measurable change
+
+### Implementation Excellence
+- Systematic approach
 - Quality assurance
-- Security compliance
-- Performance monitoring
+- Impact monitoring
 - Continuous improvement
+- Stakeholder involvement
+
+### Technical Standards
+- Ethical technology
+- Inclusive design
+- Accessibility
+- Data privacy
+- Sustainable development
