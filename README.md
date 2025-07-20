@@ -134,11 +134,21 @@ graph TB
 
 ---
 
-## 📚 Documentation
+## 📚 Repository Guide
 
-- **[Project Documentation](docs/)** - Complete project documentation
-- **[API Reference](docs/api.md)** - API documentation (if applicable)
-- **[Contributing Guide](CONTRIBUTING.md)** - How to contribute to this project
+### Project Structure
+- `README.md` - Profile overview and project showcase
+- `REPOSITORY_GRAPH.md` - Visualization of Tiation ecosystem
+- `REPOSITORY_INDEX.md` - Detailed repository listing and relationships
+- `.github/` - GitHub Actions and workflow configurations
+- `assets/` - Profile images and resources
+- `docs/` - Additional documentation and guides
+
+### Quick Links
+- [🌟 Featured Projects](https://github.com/tiation?tab=repositories)
+- [💼 Professional Experience](#professional-projects)
+- [🤝 Collaboration Opportunities](#connect--collaborate)
+- [🔮 Tiation Ecosystem](#tiation-ecosystem)
 
 ---
 
