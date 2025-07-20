@@ -8,8 +8,10 @@
 
 *Innovation • Engineering Excellence • Mission-Driven Leadership*
 
-[![⚡_Status](https://img.shields.io/badge/⚡_Status-Active_Development-FF00FF?style=flat-square&labelColor=0A0A0A&logo=github&logoColor=white)](https://github.com/tiation/TiaAstor)
-[![📄_License](https://img.shields.io/badge/📄_License-MIT-00FFFF?style=flat-square&labelColor=0A0A0A&logo=opensourceinitiative&logoColor=white)](https://github.com/tiation/TiaAstor/blob/main/LICENSE)
+[![⚡ Status](https://img.shields.io/badge/⚡_Status-Available_for_Projects-FF00FF?style=flat-square&labelColor=0A0A0A&logo=github&logoColor=white)](https://github.com/tiation)
+[![📱 iOS Development](https://img.shields.io/badge/📱_iOS-Swift_•_React_Native-00FFFF?style=flat-square&labelColor=0A0A0A&logo=apple&logoColor=white)](https://github.com/tiation)
+[![💻 Full Stack](https://img.shields.io/badge/💻_Stack-TypeScript_•_Node-FF00FF?style=flat-square&labelColor=0A0A0A&logo=typescript&logoColor=white)](https://github.com/tiation)
+[![🛠 DevOps](https://img.shields.io/badge/🛠_DevOps-Docker_•_K8s-00FFFF?style=flat-square&labelColor=0A0A0A&logo=docker&logoColor=white)](https://github.com/tiation)
 
 </div>
 
@@ -19,16 +21,29 @@ I'm **Tia Astor**, a passionate software engineer and enterprise architect speci
 
 > 🎯 **Mission**: Empowering businesses through innovative technology and enterprise-grade solutions that drive real-world impact.
 
-### ✨ Areas of Expertise
+### ✨ Core Competencies
 
-- 🎯 **Enterprise Architecture** - Designing and implementing scalable, production-ready systems
-- 🔧 **Full-Stack Development** - Specializing in TypeScript, React Native, and Swift
-- 🌟 **Mobile-First Solutions** - Creating intuitive, responsive applications for iOS and web platforms
-- 🛡️ **Security & Compliance** - Ensuring robust security practices and industry standard compliance
+#### 🏗️ Architecture & Development
+- Enterprise-grade system architecture and scalable infrastructure design
+- Full-stack development with TypeScript, Node.js, and modern frameworks
+- Native iOS (Swift/UIKit) and cross-platform (React Native) mobile development
+- Cloud infrastructure and containerization (Docker, Kubernetes)
+
+#### 🛠️ Technical Leadership
+- Leading development teams and driving technical decisions
+- Implementing CI/CD pipelines and DevOps best practices
+- Code quality assurance and performance optimization
+- Security-first development approach
+
+#### 🎯 Industry Focus
+- Construction and mining industry solutions
+- B2B SaaS platform development
+- Enterprise mobile applications
+- Automation and workflow optimization
 
 ---
 
-## 🏗️ Key Projects & Contributions
+## 🌟 Featured Projects
 
 ```mermaid
 graph TB
@@ -65,22 +80,57 @@ graph TB
 
 ---
 
-## 📦 Featured Projects
+## 💼 Professional Projects
 
-### RiggerHireApp Platform
-A comprehensive B2B SaaS solution for the construction and mining industries in Western Australia, facilitating the connection between businesses and skilled workers.
+### 🏢 Enterprise Solutions
 
-### iOS Applications
-- **RiggerConnect**: React Native app for connecting riggers with job opportunities
-- **RiggerJobs**: Native Swift/UIKit app for businesses to post and manage job listings
+#### RiggerHireApp Platform
+*B2B SaaS Platform for Construction & Mining*
+- Enterprise-grade hiring platform for skilled workers
+- Comprehensive business management dashboard
+- Advanced matching algorithm for job placements
+- Integrated payment and invoicing system
 
-### Development Tools
-- **Terminal Workflows**: Custom automation and productivity tools for developers
-- **Docker Solutions**: Enterprise-grade container orchestration and deployment
+#### iOS Applications
+- **RiggerConnect** (React Native)
+  - Real-time job matching and notifications
+  - Secure messaging and document sharing
+  - Location-based job search
+  - Digital credentials management
 
-### Creative Projects
-- **DnD Tools Suite**: Digital tools for Dungeons & Dragons enthusiasts
-- **AFL Fantasy Manager**: Sports management and analytics platform
+- **RiggerJobs** (Native Swift/UIKit)
+  - Business-focused hiring platform
+  - Advanced candidate filtering
+  - Interview scheduling system
+  - Analytics and reporting dashboard
+
+### 🛠️ Development Infrastructure
+
+#### Terminal Workflows
+- Custom productivity tools and automation scripts
+- Streamlined development workflows
+- Enterprise-grade deployment automation
+- Cross-platform compatibility
+
+#### Docker Solutions
+- Containerized development environments
+- Microservices architecture
+- Scalable deployment configurations
+- CI/CD pipeline integration
+
+### 🎮 Creative Projects
+
+#### DnD Tools Suite
+- Digital character sheet management
+- Real-time dice rolling simulator
+- Campaign tracking and notes system
+- Multi-player session support
+
+#### AFL Fantasy Manager
+- Advanced player statistics tracking
+- Team management and analysis tools
+- Real-time performance updates
+- Custom league management
 
 ---
 
@@ -92,15 +142,30 @@ A comprehensive B2B SaaS solution for the construction and mining industries in 
 
 ---
 
-## 🤝 Connect With Me
+## 🤝 Connect & Collaborate
 
-I'm always interested in collaborating on innovative projects and discussing technology solutions.
+I'm always excited to collaborate on innovative projects and discuss technology solutions that make a real impact.
 
-### Get in Touch
+### 📫 Get in Touch
 
-- 📧 Email: tiatheone@protonmail.com
-- 💼 GitHub: [github.com/tiation](https://github.com/tiation)
-- 🌐 Projects: [github.com/tiation-repos](https://github.com/tiation-repos)
+- **Email**: [tiatheone@protonmail.com](mailto:tiatheone@protonmail.com)
+- **GitHub**: [github.com/tiation](https://github.com/tiation)
+- **Projects**: [github.com/tiation-repos](https://github.com/tiation-repos)
+
+### 💡 Areas of Interest
+
+- Enterprise Architecture & System Design
+- Mobile Application Development
+- Cloud Infrastructure & DevOps
+- B2B SaaS Solutions
+- Technical Leadership & Team Building
+
+### 🌱 Current Focus
+
+- Expanding the RiggerHireApp ecosystem
+- Developing new iOS applications
+- Contributing to open-source projects
+- Building developer tools and workflows
 
 ---
 
@@ -129,6 +194,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   <p>
     <a href="https://github.com/tiation">
       <img src="https://img.shields.io/badge/Founder-Tiation-cyan.svg" alt="Founder of Tiation">
+    </a>
+    <a href="https://github.com/tiation?tab=repositories">
+      <img src="https://img.shields.io/badge/Projects-Enterprise_Grade-magenta.svg" alt="Enterprise Grade Projects">
+    </a>
+    <a href="https://github.com/tiation/RiggerHireApp">
+      <img src="https://img.shields.io/badge/Featured-RiggerHireApp-cyan.svg" alt="Featured Project: RiggerHireApp">
     </a>
   </p>
 </div>
