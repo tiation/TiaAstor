@@ -19,42 +19,43 @@
 
 ## 🚀 Overview
 
-I'm **Tia Astor**, a dedicated software engineer and visionary enterprise architect with over a decade of experience in crafting scalable, forward-thinking solutions. As the founder of Tiation, I lead the development of cutting-edge enterprise applications, particularly in the construction and mining sectors of Western Australia.
+I'm **Tia Astor**, a dedicated software engineer, enterprise architect, and NGO leader focused on driving economic and social reform through innovative technology solutions. As part of ChaseWhiteRabbit NGO, I lead initiatives that transform grief into meaningful design solutions while working towards comprehensive economic reform that benefits society as a whole.
 
-Leveraging deep expertise in native iOS development, robust enterprise architecture, and cloud infrastructure, I deliver transformative solutions for leading organizations worldwide.
+Leveraging expertise in system architecture, economic analysis, and social innovation, I contribute to ChaseWhiteRabbit's mission of creating lasting positive change through the integration of personal transformation, community development, and systemic innovation.
 
-> 🎯 **Mission**: Driving business success through innovative technology and robust, enterprise-grade solutions.
+> 🎯 **Mission**: Empowering social and economic reform through the transformation of grief into meaningful design solutions and innovative economic approaches.
 
-> 💫 **Vision**: Transforming industries with pioneering digital experiences and setting new standards in enterprise software.
+> 💫 **Vision**: Creating a more equitable and sustainable world through the integration of personal transformation, community development, and systemic change.
 
 ### ✨ Core Competencies
 
-#### 🏗️ Architecture & Development
-- Architecting scalable distributed systems
-- Leading microservices and event-driven architectures
-- Developing cloud-native applications
-- Crafting high-performance mobile applications
-- Designing optimized database architectures
+#### 🏗️ Economic Reform
+- Economic system analysis and research
+- Reform proposal development
+- Implementation strategy design
+- Impact assessment and measurement
+- Sustainable development planning
 
-#### 🛠️ Technical Expertise
-- **Mobile:** Swift, UIKit, React Native, MVVM Architecture
-- **Frontend:** TypeScript, React, Next.js, GraphQL
-- **Backend:** Node.js, NestJS, PostgreSQL, Redis
-- **Cloud:** AWS, GCP, Kubernetes, Terraform
-- **DevOps:** CI/CD Pipelines, Docker, Infrastructure Automation
+#### 🛠️ Social Innovation
+- **Transformation:** Grief to Design methodology
+- **Community:** Participatory design practices
+- **Innovation:** Social system redesign
+- **Impact:** Sustainable change creation
+- **Development:** Community empowerment
 
-#### 👥 Leadership & Management
-- Leading and mentoring technical teams
-- Implementing agile development methodologies
-- Strategizing product development and roadmaps
-- Managing stakeholder communications
-- Facilitating cross-functional collaborations
+#### 👥 Leadership & Research
+- Economic reform research
+- Social transformation methodology
+- Community engagement strategies
+- Impact assessment frameworks
+- Knowledge sharing and development
 
-#### 🎯 Industry Focus
-- Technology solutions for construction and mining
-- SaaS platform development
-- Mobile-first application strategies
-- Process automation and digital transformation
+#### 🎯 NGO Focus
+- Economic system transformation
+- Social innovation and change
+- Community development
+- Sustainable impact creation
+- Knowledge advancement
 
 ---
 
@@ -224,15 +225,33 @@ I'm always excited to collaborate on innovative projects and discuss technology 
 
 ---
 
-## 🔮 Tiation Ecosystem
+## 🏢 Organization and Ecosystem
 
-This repository is part of the Tiation ecosystem:
+This repository is part of the Tiation and ChaseWhiteRabbit ecosystem:
+
+### Tiation Repositories
 
 - [🌟 Tiation Platform](https://github.com/tiation/tiation) - Main ecosystem platform
 - [🤖 AI Platform](https://github.com/tiation/tiation-ai-platform) - Enterprise AI platform
 - [🤖 AI Agents](https://github.com/tiation/tiation-ai-agents) - Intelligent automation
 - [⚡ Terminal Workflows](https://github.com/tiation/tiation-terminal-workflows) - Developer tools
 - [🐳 Docker Solutions](https://github.com/tiation/tiation-docker-debian) - Container orchestration
+
+### ChaseWhiteRabbit Repositories
+
+- [🔮 Rigger Platform](https://github.com/ChaseWhiteRabbit/rigger-platform) - Core platform services
+- [🎲 DnD Solutions](https://github.com/ChaseWhiteRabbit/dnd-character-sheets-saas) - Dungeons & Dragons platform
+- [📊 AFL Fantasy Manager](https://github.com/ChaseWhiteRabbit/AflFantasyManager) - Sports management platform
+- [💼 Sales Pages](https://github.com/ChaseWhiteRabbit/sales-pages) - Enterprise SaaS landing pages
+- [⚙️ Kubernetes](https://github.com/ChaseWhiteRabbit/k8s) - Kubernetes deployment and configurations
+
+### Standards and Innovation
+
+- Comprehensive testing and security
+- Enterprise-grade quality and compliance
+- Innovative solutions and frameworks
+- AI-driven development and platforms
+- Enterprise application design with dark neon themes and mobile-first approaches
 
 ---
 
